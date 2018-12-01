@@ -1,2 +1,2 @@
-# Semester3_ecommerce
-assignment 1: basic ecommerce program used to demonstrate abilities using javafx
+# Semester3_e-commerce
+Assignment 1: Basic e-commerce program used to demonstrate abilities using javafx
