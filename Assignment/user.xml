@@ -1,0 +1,16 @@
+<object-stream>
+  <list>
+    <application.user>
+      <uname>PersonaForHire</uname>
+      <pword>Password</pword>
+      <uId>1</uId>
+      <isAdmin>true</isAdmin>
+    </application.user>
+    <application.user>
+      <uname>test</uname>
+      <pword>test</pword>
+      <uId>567</uId>
+      <isAdmin>false</isAdmin>
+    </application.user>
+  </list>
+</object-stream>

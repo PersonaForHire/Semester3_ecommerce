@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="327.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.loginController">
+   <children>
+      <VBox prefHeight="330.0" prefWidth="283.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleBckBtn" text="back">
+               <VBox.margin>
+                  <Insets left="4.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Label prefHeight="74.0" prefWidth="285.0" text="Login">
+               <font>
+                  <Font size="51.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="4.0" />
+               </VBox.margin>
+            </Label>
+            <VBox prefHeight="107.0" prefWidth="276.0">
+               <children>
+                  <Label contentDisplay="RIGHT" prefHeight="31.0" prefWidth="64.0" text="Username:" textAlignment="CENTER" />
+                  <TextField fx:id="Username" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="167.0" />
+                  <Label text="Password">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="Password" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="167.0" />
+               </children>
+               <VBox.margin>
+                  <Insets left="7.0" />
+               </VBox.margin>
+            </VBox>
+            <Button mnemonicParsing="false" onAction="#handleLoginButtonAction" text="login">
+               <VBox.margin>
+                  <Insets left="7.0" top="2.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="294.0" prefHeight="320.0" prefWidth="265.0">
+         <padding>
+            <Insets right="9.0" />
+         </padding>
+         <children>
+            <ImageView fitHeight="357.0" fitWidth="284.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/ed4.png" />
+               </image>
+               <VBox.margin>
+                  <Insets right="-4.0" top="5.0" />
+               </VBox.margin>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets right="5.0" top="13.0" />
+   </padding>
+</AnchorPane>
